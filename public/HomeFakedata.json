@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "shortname": "CSE",
+        "coursename": "Computer Science and Engineering",
+        "thumb": "https://www.timeshighereducation.com/student/sites/default/files/styles/default/public/2021-03/iStock-1197640540.jpg?itok=OpF3oMwO",
+        "instructor": "MD Fahim Sikder",
+        "instructorThumb": "https://i.ibb.co/5WSssQJ/1546802279220-male-passport-size-2.jpg",
+        "star": 5,
+        "students": 234,
+        "cost": 450
+    },
+    {
+        "id": 2,
+        "shortname": "ECE",
+        "coursename": "Electrial and Computer Engineering",
+        "thumb": "https://res.cloudinary.com/grand-canyon-university/image/fetch/w_724,h_483,c_fill,g_faces/https%3A%2F%2Fwww.gcu.edu%2Fsites%2Fdefault%2Ffiles%2Fmedia%2Fimages%2FBlog%2Fengineering-and-technology%2FWoman_Computer_Science2.jpg",
+        "instructor": "Sarmeen Seraj",
+        "instructorThumb": "https://lh3.googleusercontent.com/proxy/rfOFOmtZlYhJM_gihg0wYTbtSHlHWM0NnZH6N7PV5Mo-7W-HBaXjFm-QJ9-XfR851rNv9jvoCtfukBPu65emP66A2Rndo52lcD1_hIuPCZTEmd3qXMCaCm7oqTn_HcJD-DggqMpkwBXuZUmgcYhoXaM",
+        "star": 4.6,
+        "students": 403,
+        "cost": 550
+    },
+    {
+        "id": 3,
+        "shortname": "EEE",
+        "coursename": "Electrial and Electronics Engineering",
+        "thumb": "https://qph.fs.quoracdn.net/main-qimg-76b1b0dcc7c990b07c280f90e87965df-c",
+        "instructor": "Md Robiul Islam",
+        "instructorThumb": "https://i.ibb.co/5WSssQJ/1546802279220-male-passport-size-2.jpg",
+        "star": 4.5,
+        "students": 269,
+        "cost": 650
+    },
+    
+    {
+        "id": 4,
+        "shortname": "BBA",
+        "coursename": "Bachelor of Business Administration",
+        "thumb": "https://www.bacbd.org/wp-content/uploads/2019/04/HND-in-Business.jpg",
+        "instructor": "Tamanna Akter",
+        "instructorThumb": "https://www.pngarea.com/pngs/177/8650008_woman-face-png-passport-size-photo-icon-png.png",
+        "star": 4.7,
+        "students": 435,
+        "cost": 350
+    }
+]

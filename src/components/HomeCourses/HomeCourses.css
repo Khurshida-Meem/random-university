@@ -1,0 +1,20 @@
+.img-cont {
+    overflow: hidden;
+}
+
+.card-top-img .img-cont img {
+    transition: transform .5s ease;
+}
+
+.card-top-img:hover .img-cont img {
+    transform: scale(1.5);
+}
+
+.fa-star {
+    color: #ffb23d;
+}
+
+.fa-user {
+    font-size: 30px;
+    font-weight: 500;
+}

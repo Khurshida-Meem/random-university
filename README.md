@@ -7,5 +7,5 @@ This project is live on [Live Link](https://github.com/facebook/create-react-app
 
 ### Features: 
 
--feature 1
+- feature 1
  
