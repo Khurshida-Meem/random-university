@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Courses from './components/Courses/Courses';
+import Events from './components/Events/Events';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path='/courses'>
             <Courses></Courses>
+          </Route>
+          <Route path='/events'>
+            <Events></Events>
           </Route>
         </Switch>
         <Footer></Footer>

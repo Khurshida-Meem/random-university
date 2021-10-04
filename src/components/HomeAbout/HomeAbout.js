@@ -25,7 +25,7 @@ const HomeAbout = () => {
 
                 </div>
                 <div className='mt-5 pt-5 animate__animated animate__fadeInRight'>
-                    <h6 className='secondary-text'>Upcoming Events</h6>
+                    <h6 className='secondary-text'>Recent Events</h6>
                     <hr className='separator' />
                     <h1 className='secondary-text'>Check out our exiting events</h1>
                     <div>
