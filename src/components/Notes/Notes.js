@@ -5,6 +5,7 @@ import './Notes.css'
 const Notes = () => {
     return (
         <Container>
+            {/*============ experimental sticky notes on bottom of banner =============================*/}
             <div className='d-lg-flex justify-content-evenly'>
                 <div className='note1 notes text-center animate__animated animate__fadeInLeft'>
                     <h3 className='p-5'>Artists</h3>

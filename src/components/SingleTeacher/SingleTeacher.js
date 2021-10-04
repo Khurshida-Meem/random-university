@@ -2,7 +2,9 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const SingleTeacher = (props) => {
-    console.log(props.teacher);
+
+    // sending data to about page dept head section
+
     const { name, thumb, email, phone, website } = props.teacher;
     return (
         <Col className='animate__animated animate__fadeIn'>

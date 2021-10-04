@@ -12,14 +12,28 @@
 
 .primary-btn {
   background-color: #f9bc60;
-  color: #001e1d;
+  color: #004643;
   border: none;
   font-size: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.secondary-btn {
+  background-color: #e16162;
+  color: #fffffe;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
   transition: 0.5s;
 }
 
 .primary-btn:hover {
   background-color: #ffac2e;
+}
+
+.secondary-btn:hover {
+  background-color: #e44646;
 }
 
 .separator {

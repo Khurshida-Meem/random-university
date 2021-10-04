@@ -8,6 +8,7 @@ const Footer = () => {
         <div className='footer py-5'>
             <Container>
                 <div className='d-lg-flex justify-content-between align-items-center'>
+                    {/*==================== 1st part ================================*/}
                     <div>
                         <div className='d-flex align-items-center'>
                             <img src={logo} alt="" width='50px' />
@@ -20,6 +21,7 @@ const Footer = () => {
                             <p className='foo-icon'><i className="fab fa-twitter-square"></i></p>
                         </div>
                     </div>
+                    {/*==================== 2nd part ================================*/}
                     <div>
                         <h3>Contact us</h3>
                         <h5><i className="fas fa-phone"></i> +8801943475</h5>

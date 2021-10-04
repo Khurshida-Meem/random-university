@@ -7,6 +7,7 @@ import tech4 from '../../img/cultural-4.jpg'
 import './Event.css'
 const Events = () => {
     return (
+        // added four hardcoded card events
         <Container className='mt-5'>
             <h6 className='secondary-text mt-5'>Upcoming Events</h6>
             <hr className='separator' />

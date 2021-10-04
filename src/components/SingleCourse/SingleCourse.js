@@ -6,7 +6,8 @@ import './SingleCourse.css'
 const SingleCourse = (props) => {
     const { thumb, coursename, shortname, students, star, instructor, instructorThumb } = props.course;
 
-    // checking its home page or not
+    // checking its home page or courses page
+
     const h1 = !props.cost ? <h1 className='dark-text'>{coursename}</h1> : <h3 className='dark-text'>{coursename}</h3>;
     const h4 = !props.cost ? '' : <h4 className='dark-text'>Cost: ${props.cost}</h4>;
     return (

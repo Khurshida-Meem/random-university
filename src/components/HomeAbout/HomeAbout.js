@@ -7,13 +7,16 @@ import Culturul3 from '../../img/cultural-3.jpg'
 import Culturul4 from '../../img/cultural-4.jpg'
 
 const HomeAbout = () => {
+    // handle about section button click
     const history = useHistory();
     const handleClick = () => {
         history.push('/about');
     }
     return (
+        // about section of home
         <Container>
             <div className='mt-5 d-lg-flex'>
+                {/*==================== About Section ================================*/}
                 <div className='mt-5 pt-5 pe-3 animate__animated animate__fadeInLeft'>
                     <div>
                         <h6 className='secondary-text'>About us</h6>
@@ -24,6 +27,7 @@ const HomeAbout = () => {
                     </div>
 
                 </div>
+                {/* ======================Events section ==================================== */}
                 <div className='mt-5 pt-5 animate__animated animate__fadeInRight'>
                     <h6 className='secondary-text'>Recent Events</h6>
                     <hr className='separator' />

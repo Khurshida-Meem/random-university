@@ -5,6 +5,7 @@ import './Banner.css'
 
 const Banner = () => {
 
+    // handle click for about
     const history = useHistory();
     const handleClick = () => {
         history.push('/about');

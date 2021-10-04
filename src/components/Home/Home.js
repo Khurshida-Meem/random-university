@@ -14,14 +14,19 @@ const Home = () => {
 
     return (
         <div>
+            {/* banner area */}
             <Banner></Banner>
+            {/* 3 sticky notes */}
             <Notes></Notes>
+            {/* about of home loaded from HomeAbout */}
             <HomeAbout></HomeAbout>
             <Container>
                 <div className='mt-5 pt-5'>
                     <h4 className='secondary-text'>Our Courses</h4>
                     <hr className='separator' />
                     <h2 className='secondary-text'>Featured Courses</h2>
+                    {/* Showing 4 courses featured loaded from fakedb and loaded properties from single course */}
+
                     <Row xs={1} md={2} className="g-4 mt-2">
 
                         {
