@@ -1,3 +1,15 @@
 .light-header {
   color: #fffffe;
 }
+
+.primary-btn {
+  background-color: #f9bc60;
+  color: #001e1d;
+  border: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.primary-btn:hover {
+  background-color: #ffac2e;
+}
