@@ -2,11 +2,11 @@
     overflow: hidden;
 }
 
-.card-top-img .img-cont img {
+.img-cont img {
     transition: transform .5s ease;
 }
 
-.card-top-img:hover .img-cont img {
+.img-cont img:hover {
     transform: scale(1.5);
 }
 

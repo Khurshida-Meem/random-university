@@ -26,7 +26,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/home'>HOME</NavLink>
-                        <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/courses'>Courses</NavLink>
+                        <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/courses'>COURSES</NavLink>
                         <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/events'>EVENTS</NavLink>
                         <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/blogs'>BLOGS</NavLink>
                         <NavLink activeStyle={activeStyle} className='light-text nav-text text-decoration-none fw-bold px-3 py-2' to='/about'>ABOUT US</NavLink>

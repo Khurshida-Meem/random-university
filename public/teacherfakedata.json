@@ -2,14 +2,14 @@
     {
         "id": 1,
         "name": "Leanne Graham",
-        "username": "https://randomuser.me/api/portraits/men/42.jpg",
+        "thumb": "https://randomuser.me/api/portraits/men/42.jpg",
         "email": "Sincere@april.biz",
         "phone": "1-770-736-8031 x56442",
         "website": "hildegard.org"
     },
     {
         "id": 2,
-        "name": "Ervin Howell",
+        "name": "Ervin Howell Bell",
         "thumb": "https://randomuser.me/api/portraits/men/60.jpg",
         "email": "Shanna@melissa.tv",
         "phone": "010-692-6593 x09125",
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Patricia Lebsack",
         "thumb": "https://randomuser.me/api/portraits/men/82.jpg",
-        "email": "Julianne.OConner@kory.org",
+        "email": "Julianne@kory.org",
         "phone": "493-170-9623 x156",
         "website": "kale.biz"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Chelsey Dietrich",
         "thumb": "https://randomuser.me/api/portraits/women/89.jpg",
-        "email": "Lucio_Hettinger@annie.ca",
+        "email": "Luci_Hetinger@anie.ca",
         "phone": "(254)954-1289",
         "website": "demarco.info"
     },
@@ -57,9 +57,9 @@
     },
     {
         "id": 8,
-        "name": "Nicholas Runolfsdottir V",
+        "name": "Nicholas Runolfsdottir",
         "thumb": "https://randomuser.me/api/portraits/men/20.jpg",
-        "email": "Sherwood@rosamond.me",
+        "email": "Shd@rosamond.me",
         "phone": "586.493.6943 x140",
         "website": "jacynthe.com"
     }

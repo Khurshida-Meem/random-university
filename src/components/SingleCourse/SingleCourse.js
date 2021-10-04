@@ -12,20 +12,23 @@ const SingleCourse = (props) => {
     return (
 
         <Col className='animate__animated animate__zoomIn'>
-            <Card className='card-top-img'>
+            <Card className='card-container'>
                 <div className='img-cont'>
                     <Card.Img variant="top" src={thumb} height='300px' />
                 </div>
                 <div>
                     <Card.Body>
-                        {h1}
-                        <h4 className='secondary-text'>{shortname}</h4>
-                        {h4}
-                        <Rating
-                            initialRating={star}
-                            emptySymbol="far fa-star"
-                            fullSymbol="fas fa-star"
-                            readonly></Rating>
+                        <div>
+                            {h1}
+                            <h4 className='secondary-text'>{shortname}</h4>
+                            {h4}
+                            <Rating
+                                initialRating={star}
+                                emptySymbol="far fa-star"
+                                fullSymbol="fas fa-star"
+                                readonly></Rating>
+                        </div>
+
                         <hr />
                         <div className='mt-3 d-flex align-items-center justify-content-between'>
                             <div className='d-flex align-items-center justify-content-center'>
@@ -39,9 +42,8 @@ const SingleCourse = (props) => {
                         </div>
                     </Card.Body>
                 </div>
-
-
             </Card>
+
         </Col>
     );
 };
