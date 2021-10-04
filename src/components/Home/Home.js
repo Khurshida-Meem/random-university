@@ -18,8 +18,7 @@ const Home = () => {
             <Banner></Banner>
             {/* 3 sticky notes */}
             <Notes></Notes>
-            {/* about of home loaded from HomeAbout */}
-            <HomeAbout></HomeAbout>
+
             <Container>
                 <div className='mt-5 pt-5'>
                     <h4 className='secondary-text'>Our Courses</h4>
@@ -38,6 +37,8 @@ const Home = () => {
 
                     </Row>
                 </div>
+                {/* about of home loaded from HomeAbout */}
+                <HomeAbout></HomeAbout>
                 <div>
                     <div className='text-center light-bg m-5 p-5'>
                         <h1>Admission is Going on for more info</h1>
