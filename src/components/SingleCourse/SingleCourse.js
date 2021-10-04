@@ -1,15 +1,16 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
-import './HomeCourses.css'
+import './SingleCourse.css'
 
-const HomeCourses = (props) => {
+const SingleCourse = (props) => {
     const { thumb, coursename, shortname, students, star, instructor, instructorThumb } = props.course;
-    console.log(props.course);
-    return (
-        // <div className='course-container'>
 
-        // </div>
+    // checking its home page or not
+    const h1 = !props.cost ? <h1 className='dark-text'>{coursename}</h1> : <h3 className='dark-text'>{coursename}</h3>;
+    const h4 = !props.cost ? '' : <h4 className='dark-text'>Cost: ${props.cost}</h4>;
+    return (
+
         <Col className='animate__animated animate__zoomIn'>
             <Card className='card-top-img'>
                 <div className='img-cont'>
@@ -17,8 +18,9 @@ const HomeCourses = (props) => {
                 </div>
                 <div>
                     <Card.Body>
-                        <h1 className='dark-text'>{coursename}</h1>
+                        {h1}
                         <h4 className='secondary-text'>{shortname}</h4>
+                        {h4}
                         <Rating
                             initialRating={star}
                             emptySymbol="far fa-star"
@@ -44,4 +46,4 @@ const HomeCourses = (props) => {
     );
 };
 
-export default HomeCourses;
+export default SingleCourse;

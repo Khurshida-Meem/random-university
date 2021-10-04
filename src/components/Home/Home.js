@@ -1,42 +1,41 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Banner from '../Banner/Banner';
-import HomeCourses from '../HomeCourses/HomeCourses';
+import HomeCourses from '../SingleCourse/SingleCourse';
 import Notes from '../Notes/Notes';
+import './Home.css'
+import useData from '../../hooks/useData';
+import HomeAbout from '../HomeAbout/HomeAbout';
 
 const Home = () => {
 
-    const [courses, setCourses] = useState([]);
-    useEffect(() => {
-        fetch('./HomeFakedata.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    const [courses] = useData('./fakedata.json');
+    courses.splice(4, 4);
 
     return (
         <div>
             <Banner></Banner>
             <Notes></Notes>
+            <HomeAbout></HomeAbout>
             <Container>
-                <Row xs={1} md={2} className="g-4 mt-5">
-                    {
-                        courses.map(course => <HomeCourses
-                            key={course.id}
-                            course={course}
-                        ></HomeCourses>)
-                    }
+                <div className='mt-5 pt-5'>
+                    <h4 className='secondary-text'>Our Courses</h4>
+                    <hr className='separator' />
+                    <h2 className='secondary-text'>Featured Courses</h2>
+                    <Row xs={1} md={2} className="g-4 mt-2">
 
-                </Row>
+                        {
+                            courses.map(course => <HomeCourses
+                                key={course.id}
+                                course={course}
+                            ></HomeCourses>)
+                        }
+
+                    </Row>
+                </div>
+
             </Container>
 
-            {/* {
-                courses.map(course => <HomeCourses
-                    key={course.id}
-                    course={course}
-                ></HomeCourses>)
-            } */}
         </div>
     );
 };
