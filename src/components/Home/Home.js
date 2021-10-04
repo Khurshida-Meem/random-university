@@ -38,7 +38,12 @@ const Home = () => {
 
                     </Row>
                 </div>
-
+                <div>
+                    <div className='text-center light-bg m-5 p-5'>
+                        <h1>Admission is Going on for more info</h1>
+                        <button className='secondary-btn px-3 py-2'>Contact us</button>
+                    </div>
+                </div>
             </Container>
 
         </div>

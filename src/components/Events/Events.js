@@ -9,6 +9,12 @@ const Events = () => {
     return (
         // added four hardcoded card events
         <Container className='mt-5'>
+            <div>
+                <div className='text-center light-bg m-5 p-5'>
+                    <h1>Admission is Going on </h1>
+                    <button className='secondary-btn px-3 py-2'>Contact us</button>
+                </div>
+            </div>
             <h6 className='secondary-text mt-5'>Upcoming Events</h6>
             <hr className='separator' />
             <h1 className='secondary-text'>Check out our exiting events</h1>

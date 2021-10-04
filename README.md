@@ -2,7 +2,7 @@
 
 This project is live on [Live Link](https://random-university.netlify.app/).
 
-## This is an educational Website
+## This is an educational Website for offline
 
 
 ### Features: 
