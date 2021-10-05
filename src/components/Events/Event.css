@@ -1,3 +1,7 @@
+.event-banner {
+    background-image: url(../../img/eventsBanner.jpg);
+}
+
 .img-cont {
     overflow: hidden;
 }

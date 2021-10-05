@@ -20,12 +20,13 @@ const Home = () => {
 
     return (
         <div>
-            {/* banner area */}
+            {/*======================= banner area =============*/}
             <Banner></Banner>
             {/* 3 sticky notes */}
             <Notes></Notes>
+            {/* =============== we offer area ================= */}
             <Facilities></Facilities>
-
+            {/* ===================== offer courses area ================== */}
             <Container>
                 <div className='mt-5 pt-5'>
                     <h4 className='secondary-text'>Our Courses</h4>

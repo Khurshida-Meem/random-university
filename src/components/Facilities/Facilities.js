@@ -5,6 +5,7 @@ import './Facilities.css'
 const Facilities = () => {
     return (
         <Container>
+            {/* =================== homme page we offer area =============== */}
             <h3 className='secondary-text mt-5 pt-5 animate__animated animate__fadeIn'>We Offer</h3>
             <hr className='separator' />
             <h1 className='secondary-text animate__animated animate__fadeIn'>Our Top Most Priority is to Provide</h1>

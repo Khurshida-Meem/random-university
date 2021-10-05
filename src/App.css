@@ -10,8 +10,18 @@
   background-color: #004643;
 }
 
+.light-bg {
+  background-color: #00464377;
+  color: #fffffe;
+}
+
 .secondary-text {
   color: #e16162;
+}
+
+.secondary-bg {
+  background-color: #e1616169;
+  color: white;
 }
 
 .primary-btn {
