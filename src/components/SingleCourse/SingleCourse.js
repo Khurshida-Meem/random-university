@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 import './SingleCourse.css'
 
 const SingleCourse = (props) => {
-    const { id, thumb, coursename, shortname, students, star, instructor, instructorThumb } = props.course;
+    const { id, thumb, coursename, shortname, students, star, instructor, instructorThumb, cost } = props.course;
 
     const history = useHistory();
     const handleDetailsClick = () => {
@@ -13,7 +13,6 @@ const SingleCourse = (props) => {
 
     // checking its home page or courses page
     const h1 = !props.cost ? <h1 className='dark-text'>{coursename}</h1> : <h3 className='dark-text'>{coursename}</h3>;
-    const h4 = !props.cost ? '' : <h4 className='dark-text'>Cost: ${props.cost}</h4>;
     return (
 
         <Col className='animate__animated animate__zoomIn'>
@@ -26,13 +25,16 @@ const SingleCourse = (props) => {
                         <div>
                             {h1}
                             <h4 className='secondary-text'>{shortname}</h4>
-                            {h4}
+                            <Rating
+                                initialRating={star}
+                                emptySymbol="far fa-star"
+                                fullSymbol="fas fa-star"
+                                readonly></Rating>
+                            <br />
+
                             <div className='d-flex justify-content-between align-items-center'>
-                                <Rating
-                                    initialRating={star}
-                                    emptySymbol="far fa-star"
-                                    fullSymbol="fas fa-star"
-                                    readonly></Rating>
+                                <h4 className='dark-text'>Cost: ${cost}</h4>
+
                                 {/* ==========more details button================== */}
                                 <button onClick={handleDetailsClick} className='primary-btn mt-2 py-1 px-3 '>More Detail</button>
                             </div>

@@ -10,7 +10,7 @@ const Blogs = () => {
 
     return (
         <Container>
-            <h1 className='mt-5 py-5 secondary-text text-center animate__animated animate__fadeInDown'>Top Blogs</h1>
+            <h1 className='mt-5 pb-3 secondary-text text-center animate__animated animate__fadeInDown'>Top Blogs</h1>
             <CardGroup>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {

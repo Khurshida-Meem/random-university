@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='footer py-5'>
+        <footer className='footer py-5'>
             <Container>
                 <div className='d-lg-flex justify-content-between align-items-center'>
                     {/*==================== 1st part ================================*/}
@@ -31,8 +31,8 @@ const Footer = () => {
                 </div>
 
             </Container>
-            <p className='copyright text-secondary'> &copy; copyright 2021 Khurshida Meem. All rights reservedSA</p>
-        </div>
+            <p className='copyright text-secondary mb-0 pb-0'> &copy; copyright 2021 Random University. All rights reserved</p>
+        </footer>
     );
 };
 

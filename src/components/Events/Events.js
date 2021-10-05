@@ -15,10 +15,10 @@ const Events = () => {
                     <button className='secondary-btn px-3 py-2'>Contact us</button>
                 </div>
             </div>
-            <h6 className='secondary-text mt-5'>Upcoming Events</h6>
+            <h6 className='secondary-text mt-5 pt-4'>Upcoming Events</h6>
             <hr className='separator' />
             <h1 className='secondary-text'>Check out our exiting events</h1>
-            <Row xs={1} md={2} className="g-4 mt-5">
+            <Row xs={1} md={2} className="g-4 mt-3">
                 {/*========================== card 1 =================================*/}
                 <Col className='animate__animated animate__zoomIn'>
                     <Card className='card-top-img'>
