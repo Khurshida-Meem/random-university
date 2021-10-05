@@ -6,6 +6,7 @@ const SingleBlog = (props) => {
 
     const { title, place, country, thumb, description, starCount, cost } = props.blog;
 
+    // state for increment value on click
     const [count, setCount] = useState(starCount);
     return (
 
