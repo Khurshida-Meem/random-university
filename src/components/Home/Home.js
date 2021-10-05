@@ -6,6 +6,7 @@ import Notes from '../Notes/Notes';
 import './Home.css'
 import useData from '../../hooks/useData';
 import HomeAbout from '../HomeAbout/HomeAbout';
+import Facilities from '../Facilities/Facilities';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <Banner></Banner>
             {/* 3 sticky notes */}
             <Notes></Notes>
+            <Facilities></Facilities>
 
             <Container>
                 <div className='mt-5 pt-5'>
