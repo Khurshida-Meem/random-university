@@ -9,10 +9,12 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import SingleCourseDetail from './components/SingleCourseDetail/SingleCourseDetail';
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <Router>
         <Header></Header>
         <Switch>
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path='/courses'>
             <Courses></Courses>
+          </Route>
+          <Route path='/course/:crsid'>
+            <SingleCourseDetail></SingleCourseDetail>
           </Route>
           <Route path='/events'>
             <Events></Events>
@@ -41,6 +46,7 @@ function App() {
         <Footer></Footer>
       </Router>
     </div>
+
   );
 }
 

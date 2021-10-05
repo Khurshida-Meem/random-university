@@ -8,10 +8,12 @@ import useData from '../../hooks/useData';
 import HomeAbout from '../HomeAbout/HomeAbout';
 import Facilities from '../Facilities/Facilities';
 
+
 const Home = () => {
 
     const [courses] = useData('./fakedata.json');
     courses.splice(4, 4);
+
 
     return (
         <div>
@@ -36,17 +38,10 @@ const Home = () => {
                                 course={course}
                             ></HomeCourses>)
                         }
-
                     </Row>
                 </div>
                 {/* about of home loaded from HomeAbout */}
                 <HomeAbout></HomeAbout>
-                <div>
-                    <div className='text-center light-bg m-5 p-5'>
-                        <h1>Admission is Going on for more info</h1>
-                        <button className='secondary-btn px-3 py-2'>Contact us</button>
-                    </div>
-                </div>
             </Container>
 
         </div>

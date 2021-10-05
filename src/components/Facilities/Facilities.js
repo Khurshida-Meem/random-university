@@ -12,25 +12,25 @@ const Facilities = () => {
                 <div className='animate__animated animate__fadeInLeft'>
                     {/* ==================================== security ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i class="fas fa-shield-alt"></i></p>
+                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i className="fas fa-shield-alt"></i></p>
                         <span>
-                            <h3 className='dark-text'>Security</h3>
+                            <h3 className='dark-text fw-bold'>Security</h3>
                             <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
                         </span>
                     </div>
                     {/* ==================================== teachers ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-3 m-3 rounded-circle display-4'><i class="fas fa-users"></i></p>
+                        <p className='dark-bg text-white p-3 m-3 rounded-circle display-4'><i className="fas fa-users"></i></p>
                         <span>
-                            <h3 className='dark-text'>Amazing Teachers</h3>
+                            <h3 className='dark-text fw-bold'>Amazing Teachers</h3>
                             <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
                         </span>
                     </div>
                     {/* ==================================== regular class ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i class="fas fa-book-reader"></i></p>
+                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i className="fas fa-book-reader"></i></p>
                         <span>
-                            <h3 className='dark-text'>Regular Clases</h3>
+                            <h3 className='dark-text fw-bold'>Regular Clases</h3>
                             <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
                         </span>
                     </div>
@@ -39,25 +39,25 @@ const Facilities = () => {
                 <div className='animate__animated animate__fadeInRight'>
                     {/* ==================================== sufficient classroom ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i class="fas fa-door-open"></i></p>
+                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i className="fas fa-door-open"></i></p>
                         <span>
-                            <h3 className='dark-text'>Sufficient Classroom</h3>
-                            <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
+                            <h3 className='dark-text fw-bold'>Sufficient Classroom</h3>
+                            <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs.</p>
                         </span>
                     </div>
                     {/* ==================================== Skill Development ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i class="fas fa-skiing-nordic"></i></p>
+                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i className="fas fa-skiing-nordic"></i></p>
                         <span>
-                            <h3 className='dark-text'>Skill Development</h3>
+                            <h3 className='dark-text fw-bold'>Skill Development</h3>
                             <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
                         </span>
                     </div>
                     {/* ==================================== sports ========================================*/}
                     <div className='d-flex align-items-center'>
-                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i class="fas fa-table-tennis"></i></p>
+                        <p className='dark-bg text-white p-4 m-3 rounded-circle display-4'><i className="fas fa-table-tennis"></i></p>
                         <span>
-                            <h3 className='dark-text'>Sports Facilities</h3>
+                            <h3 className='dark-text fw-bold'>Sports Facilities</h3>
                             <p className='dark-text'>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.</p>
                         </span>
                     </div>
