@@ -10,7 +10,7 @@ const Events = () => {
         // added four hardcoded card events
         <Container className='mt-5'>
             <div>
-                <div className='text-center light-bg m-5 p-5'>
+                <div className='text-center light-bg m-5 p-5 animate__animated animate__flash'>
                     <h1>Admission is Going on </h1>
                     <button className='secondary-btn px-3 py-2'>Contact us</button>
                 </div>

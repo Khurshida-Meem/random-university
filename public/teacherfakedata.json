@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Leanne Graham",
+        "name": "Leanne Graham Bell",
         "thumb": "https://randomuser.me/api/portraits/men/42.jpg",
         "email": "Sincere@april.biz",
         "phone": "1-770-736-8031 x56442",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Chelsey Dietrich",
+        "name": "Chelsey Dietrich Patricia",
         "thumb": "https://randomuser.me/api/portraits/women/89.jpg",
         "email": "Luci_Hetinger@anie.ca",
         "phone": "(254)954-1289",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "name": "Kurtis Weissnat",
+        "name": "Kurtis Weissnat Patricia",
         "thumb": "https://randomuser.me/api/portraits/women/17.jpg",
         "email": "Telly.Hoeger@billy.biz",
         "phone": "210.067.6132",

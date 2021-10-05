@@ -17,7 +17,7 @@ const SingleCourse = (props) => {
     return (
 
         <Col className='animate__animated animate__zoomIn'>
-            <Card className='card-container'>
+            <Card className='card-container card-top-img'>
                 <div className='img-cont'>
                     <Card.Img variant="top" src={thumb} height='300px' />
                 </div>
@@ -42,7 +42,10 @@ const SingleCourse = (props) => {
                         <hr />
                         <div className='mt-3 d-flex align-items-center justify-content-between'>
                             <div className='d-flex align-items-center justify-content-center'>
-                                <img className='rounded-pill' src={instructorThumb} height='50px' alt="" />
+                                <div className='img-cont rounded-pill'>
+                                    <img className='rounded-pill' src={instructorThumb} height='50px' alt="" />
+                                </div>
+
                                 <p className='ms-2 dark-text'>{instructor}</p>
                             </div>
                             <div className='d-flex align-items-center justify-content-center fw-bold dark-text'>

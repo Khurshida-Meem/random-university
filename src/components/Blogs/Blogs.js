@@ -1,22 +1,26 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import { useHistory } from 'react-router';
+import { CardGroup, Container, Row } from 'react-bootstrap';
+import useData from '../../hooks/useData';
+import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css'
 
 const Blogs = () => {
 
-    // go to home
-    const history = useHistory();
-    const handleClick = () => {
-        history.push('/home');
-    }
+    const [blogs] = useData('./blogsFakedata.json');
 
     return (
         <Container>
-            <div className='text-center light-bg m-5 p-5'>
-                <h1>To be Continued...</h1>
-                <button className='secondary-btn px-3 py-2' onClick={handleClick}>Back to Home</button>
-            </div>
+            <h1 className='mt-5 py-5 secondary-text text-center animate__animated animate__fadeInDown'>Top Blogs</h1>
+            <CardGroup>
+                <Row xs={1} md={2} lg={3} className="g-4">
+                    {
+                        blogs.map(blog => <SingleBlog
+                            key={blog.id}
+                            blog={blog}
+                        ></SingleBlog>)
+                    }
+                </Row>
+            </CardGroup>
         </Container>
     );
 };
